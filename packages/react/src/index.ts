@@ -1,1 +1,1 @@
-console.log("hello")
+import { colors } from '@ignite-ui/tokens'
