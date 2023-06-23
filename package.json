@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "tsup": "^7.0.0"
+  }
+}
