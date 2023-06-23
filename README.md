@@ -13,8 +13,8 @@
 
 # Comandos importantes
 
-``` npm i init -y ```
-> instala dependencias do node modules
+``` npm init -y ```
+> inicia um package.json
 
 ``` npm i typescript -D ```
 > instala o typescript 
