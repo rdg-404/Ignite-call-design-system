@@ -9,3 +9,7 @@
 - [] Checkbox
 - [] Avatar
 - [] MultiStep
+
+
+``` npm run build ``` 
+gerar build de js usando o tsup
