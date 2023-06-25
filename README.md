@@ -24,3 +24,7 @@
 
 ``` npm run build ``` 
 > gera build de js usando o tsup
+
+
+``` npx sb init --builder @storybook/builder-vite --type react --use-npm ```
+> Inicia o storybook usando o vite de build, usando react e usando npm
