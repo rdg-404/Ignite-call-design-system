@@ -11,3 +11,5 @@ export default {
 } as Meta
 
 export const Primary: StoryObj = {}
+
+export const Secondary: StoryObj = {}
