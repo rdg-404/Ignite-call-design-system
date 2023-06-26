@@ -12,4 +12,8 @@ export default {
 
 export const Primary: StoryObj = {}
 
-export const Secondary: StoryObj = {}
+export const Big: StoryObj = {
+  args: {
+    size: 'big',
+  },
+}
