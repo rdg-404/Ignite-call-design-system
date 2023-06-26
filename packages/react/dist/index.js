@@ -144,9 +144,9 @@ var {
 // src/index.tsx
 var Button = styled("button", {
   fontFamily: "$default",
-  backgroundColor: "$ignite500",
+  backgroundColor: "$ignite300",
   borderRadius: "$md",
-  height: "$10"
+  padding: "$4"
 });
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {

@@ -121,9 +121,9 @@ var {
 // src/index.tsx
 var Button = styled("button", {
   fontFamily: "$default",
-  backgroundColor: "$ignite500",
+  backgroundColor: "$ignite300",
   borderRadius: "$md",
-  height: "$10"
+  padding: "$4"
 });
 export {
   Button
