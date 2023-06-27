@@ -30,6 +30,7 @@
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*"
+    "@ignite-ui/tokens": "*",
+    "polished": "^4.2.2"
   }
 }

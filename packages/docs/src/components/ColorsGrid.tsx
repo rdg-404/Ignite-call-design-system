@@ -1,4 +1,5 @@
 import { colors } from '@ignite-ui/tokens'
+import { getContrast } from 'polished'
 
 export function ColorsGrid() {
   return Object.entries(colors).map(([index, color]) => {
@@ -9,7 +10,7 @@ export function ColorsGrid() {
             display: 'flex',
             justifyContent: 'space-between',
             fontFamily: 'monospace',
-            color: '#fff',
+            color: getContrast(color, '#fff') < 3.5 ? '#000' : '#fff',
           }}
         >
           <strong>${index}</strong>
