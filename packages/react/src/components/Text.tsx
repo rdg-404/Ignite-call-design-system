@@ -1,3 +1,4 @@
+import { ComponentProps } from 'react'
 import { styled } from '../styles'
 
 export const Text = styled('p', {
@@ -28,3 +29,5 @@ export const Text = styled('p', {
     size: '$md',
   },
 })
+
+export type TextProps = ComponentProps<typeof Text>
