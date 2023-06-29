@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Text = styled('p', {
@@ -30,4 +30,6 @@ export const Text = styled('p', {
   },
 })
 
-export type TextProps = ComponentProps<typeof Text>
+export type TextProps = ComponentProps<typeof Text> & {
+  as?: ElementType
+}
