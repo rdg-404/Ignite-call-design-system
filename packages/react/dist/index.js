@@ -26,7 +26,12 @@ module.exports = __toCommonJS(src_exports);
 
 // src/components/Box.tsx
 var import_react = require("@stitches/react");
-var Box = (0, import_react.styled)("div", {});
+var Box = (0, import_react.styled)("div", {
+  padding: "$4",
+  borderRadius: "$md",
+  backgroundColor: "$gray800",
+  border: "1px solid $gray600"
+});
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Box
