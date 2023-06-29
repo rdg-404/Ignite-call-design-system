@@ -11,3 +11,10 @@ export default {
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
+
+export const CustomText: StoryObj<TextProps> = {
+  args: {
+    children: 'Italic Text',
+    as: 'em',
+  },
+}
