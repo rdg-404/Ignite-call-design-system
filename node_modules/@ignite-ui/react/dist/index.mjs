@@ -217,9 +217,13 @@ function Avatar2(props) {
     /* @__PURE__ */ jsx(AvatarFallback, { delayMs: 600, children: /* @__PURE__ */ jsx(User, {}) })
   ] });
 }
+
+// src/components/Button.tsx
+var Button = styled("button", {});
 export {
   Avatar2 as Avatar,
   Box,
+  Button,
   Heading,
   Text
 };
