@@ -60,6 +60,14 @@ export const Button = styled('button', {
 
       tertiary: {
         color: '$gray100',
+
+        '&:not(:disabled):hover': {
+          color: '$white',
+        },
+
+        '&:disabled': {
+          color: '$gray600',
+        },
       },
     },
 

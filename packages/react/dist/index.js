@@ -303,7 +303,13 @@ var Button = styled("button", {
         }
       },
       tertiary: {
-        color: "$gray100"
+        color: "$gray100",
+        "&:not(:disabled):hover": {
+          color: "$white"
+        },
+        "&:disabled": {
+          color: "$gray600"
+        }
       }
     },
     size: {

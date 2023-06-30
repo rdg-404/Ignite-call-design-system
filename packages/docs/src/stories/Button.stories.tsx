@@ -31,3 +31,9 @@ export const Tertiary: StoryObj<ButtonProps> = {
     children: 'Cancel',
   },
 }
+
+export const Disabled: StoryObj<ButtonProps> = {
+  args: {
+    disabled: true,
+  },
+}
