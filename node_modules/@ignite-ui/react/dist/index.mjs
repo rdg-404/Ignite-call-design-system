@@ -255,7 +255,15 @@ var Button = styled("button", {
       },
       secondary: {
         color: "$ignite300",
-        border: "2px solid $ignite500"
+        border: "2px solid $ignite500",
+        "&:not(:disabled):hover": {
+          backgroundColor: "$ignite500",
+          color: "$white"
+        },
+        "&:disabled": {
+          color: "$gray200",
+          borderColor: "$gray200"
+        }
       },
       tertiary: {
         color: "$gray100"
