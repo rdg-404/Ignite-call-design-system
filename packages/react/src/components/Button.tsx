@@ -29,6 +29,11 @@ export const Button = styled('button', {
         color: '$white',
         backgroundColor: '$ignite500',
       },
+
+      secondary: {
+        color: '$ignite300',
+        border: '2px solid $ignite500',
+      },
     },
 
     size: {
