@@ -22,6 +22,27 @@ export const Button = styled('button', {
     width: '$4',
     height: '$4',
   },
+
+  variants: {
+    variant: {
+      primary: {
+        color: '$white',
+        backgroundColor: '$ignite500',
+      },
+    },
+
+    size: {
+      md: {
+        padding: '0 $4',
+        height: 46,
+      },
+    },
+  },
+
+  defaultVariants: {
+    variant: 'primary',
+    size: 'md',
+  },
 })
 
 export interface ButtonProps extends ComponentProps<typeof Button> {
