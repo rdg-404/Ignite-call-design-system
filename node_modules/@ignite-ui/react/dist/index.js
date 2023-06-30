@@ -275,11 +275,20 @@ var Button = styled("button", {
     width: "$4",
     height: "$4"
   },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
   variants: {
     variant: {
       primary: {
         color: "$white",
-        backgroundColor: "$ignite500"
+        backgroundColor: "$ignite500",
+        "&:not(:disabled):hover": {
+          backgroundColor: "$ignite300"
+        },
+        "&:disabled": {
+          backgroundColor: "$gray200"
+        }
       },
       secondary: {
         color: "$ignite300",
