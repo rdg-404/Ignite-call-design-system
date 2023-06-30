@@ -12,6 +12,12 @@ export default {
 
 export const Primary: StoryObj<ButtonProps> = {}
 
+export const Small: StoryObj<ButtonProps> = {
+  args: {
+    size: 'sm',
+  },
+}
+
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',

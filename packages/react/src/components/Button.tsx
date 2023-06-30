@@ -10,6 +10,7 @@ export const Button = styled('button', {
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
+  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
@@ -41,8 +42,11 @@ export const Button = styled('button', {
     },
 
     size: {
+      sm: {
+        height: 38,
+      },
+
       md: {
-        padding: '0 $4',
         height: 46,
       },
     },

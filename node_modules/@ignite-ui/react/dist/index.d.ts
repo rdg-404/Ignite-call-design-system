@@ -836,7 +836,7 @@ declare function Avatar(props: AvatarProps): react_jsx_runtime.JSX.Element;
 
 declare const Button: _stitches_react_types_styled_component.StyledComponent<"button", {
     variant?: "primary" | "secondary" | "tertiary" | undefined;
-    size?: "md" | undefined;
+    size?: "sm" | "md" | undefined;
 }, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         white: string;

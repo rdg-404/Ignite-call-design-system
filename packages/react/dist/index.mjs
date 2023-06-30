@@ -228,6 +228,7 @@ var Button = styled("button", {
   textAlign: "center",
   minWidth: 120,
   boxSizing: "border-box",
+  padding: "0 $4",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -252,8 +253,10 @@ var Button = styled("button", {
       }
     },
     size: {
+      sm: {
+        height: 38
+      },
       md: {
-        padding: "0 $4",
         height: 46
       }
     }
