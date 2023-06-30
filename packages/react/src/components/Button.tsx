@@ -34,6 +34,10 @@ export const Button = styled('button', {
         color: '$ignite300',
         border: '2px solid $ignite500',
       },
+
+      tertiary: {
+        color: '$gray100',
+      },
     },
 
     size: {
