@@ -341,10 +341,24 @@ var Button = styled("button", {
 });
 
 // src/components/TextInput/styles.ts
-var import_react2 = require("@stitches/react");
-var TextInputContainer = (0, import_react2.styled)("div", {});
-var Prefix = (0, import_react2.styled)("span", {});
-var Input = (0, import_react2.styled)("input", {});
+var TextInputContainer = styled("div", {
+  backgroundColor: "$gray900",
+  padding: "$3 $4",
+  borderRadius: "$sm",
+  boxSizing: "border-box",
+  border: "2px solid $gray900",
+  display: "flex",
+  alignItems: "baseline",
+  "&:has(input:focus)": {
+    borderColor: "$ignite300"
+  },
+  "&:has(input:disabled)": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  }
+});
+var Prefix = styled("span", {});
+var Input = styled("input", {});
 
 // src/components/TextInput/index.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");

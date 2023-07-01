@@ -303,10 +303,24 @@ var Button = styled("button", {
 });
 
 // src/components/TextInput/styles.ts
-import { styled as styled2 } from "@stitches/react";
-var TextInputContainer = styled2("div", {});
-var Prefix = styled2("span", {});
-var Input = styled2("input", {});
+var TextInputContainer = styled("div", {
+  backgroundColor: "$gray900",
+  padding: "$3 $4",
+  borderRadius: "$sm",
+  boxSizing: "border-box",
+  border: "2px solid $gray900",
+  display: "flex",
+  alignItems: "baseline",
+  "&:has(input:focus)": {
+    borderColor: "$ignite300"
+  },
+  "&:has(input:disabled)": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  }
+});
+var Prefix = styled("span", {});
+var Input = styled("input", {});
 
 // src/components/TextInput/index.tsx
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
