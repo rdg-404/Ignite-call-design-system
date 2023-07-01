@@ -319,7 +319,12 @@ var TextInputContainer = styled("div", {
     cursor: "not-allowed"
   }
 });
-var Prefix = styled("span", {});
+var Prefix = styled("span", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$gray400",
+  fontWeight: "regular"
+});
 var Input = styled("input", {});
 
 // src/components/TextInput/index.tsx
