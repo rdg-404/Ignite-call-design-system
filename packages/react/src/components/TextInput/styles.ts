@@ -26,4 +26,16 @@ export const Prefix = styled('span', {
   fontWeight: 'regular',
 })
 
-export const Input = styled('input', {})
+export const Input = styled('input', {
+  fontFamily: '$default',
+  fontSize: '$sm',
+  color: '$white',
+  fontWeight: 'regular',
+  background: 'transparent',
+  border: 0,
+  width: '100%',
+
+  '&:focus': {
+    outline: 0,
+  },
+})

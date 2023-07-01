@@ -363,7 +363,18 @@ var Prefix = styled("span", {
   color: "$gray400",
   fontWeight: "regular"
 });
-var Input = styled("input", {});
+var Input = styled("input", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "regular",
+  background: "transparent",
+  border: 0,
+  width: "100%",
+  "&:focus": {
+    outline: 0
+  }
+});
 
 // src/components/TextInput/index.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
