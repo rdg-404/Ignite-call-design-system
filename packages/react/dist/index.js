@@ -332,11 +332,15 @@ var Button = styled("button", {
 var import_react2 = require("@stitches/react");
 var TextInputContainer = (0, import_react2.styled)("div", {});
 var Prefix = (0, import_react2.styled)("span", {});
+var Input = (0, import_react2.styled)("input", {});
 
 // src/components/TextInput/index.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
 function TextInput({ prefix }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(TextInputContainer, { children: !!prefix && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Prefix, { children: prefix }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(TextInputContainer, { children: [
+    !!prefix && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Prefix, { children: prefix }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, {})
+  ] });
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
