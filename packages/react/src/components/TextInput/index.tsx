@@ -1,7 +1,13 @@
-import { TextInputContainer } from './styles'
+import { Prefix, TextInputContainer } from './styles'
 
-export interface TextInputProps {}
+export interface TextInputProps {
+  prefix?: string
+}
 
-export function TextInput() {
-  return <TextInputContainer></TextInputContainer>
+export function TextInput({ prefix }: TextInputProps) {
+  return (
+    <TextInputContainer>
+      {!!prefix && <Prefix>{prefix}</Prefix>}
+    </TextInputContainer>
+  )
 }

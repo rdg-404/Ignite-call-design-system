@@ -293,11 +293,12 @@ var Button = styled("button", {
 // src/components/TextInput/styles.ts
 import { styled as styled2 } from "@stitches/react";
 var TextInputContainer = styled2("div", {});
+var Prefix = styled2("span", {});
 
 // src/components/TextInput/index.tsx
 import { jsx as jsx2 } from "react/jsx-runtime";
-function TextInput() {
-  return /* @__PURE__ */ jsx2(TextInputContainer, {});
+function TextInput({ prefix }) {
+  return /* @__PURE__ */ jsx2(TextInputContainer, { children: !!prefix && /* @__PURE__ */ jsx2(Prefix, { children: prefix }) });
 }
 export {
   Avatar2 as Avatar,
