@@ -32,11 +32,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Radix
 - Phosphor React
 
-## Tokens
+## 🎨 Tokens
 
 A área de tokens armazena todas as configuração de <a href="#-cores">cores</a>, <a href="#-space">espaçamento</a>, <a href="#-fontes">fontes</a>
 
-### Cores 
+###  Cores 
   <div align="center">
     <img src="./assets/colors.png"/>
   </div>
@@ -51,7 +51,7 @@ A área de tokens armazena todas as configuração de <a href="#-cores">cores</a
     <img src="./assets/space.png"/>
   </div>
 
-## Data display
+## 🌗 Data display
 
 A área de Data display armazena os estados de avatares.
 
@@ -66,7 +66,7 @@ A área de Data display armazena os estados de avatares.
   </div>
 
 
-## Button
+## 🔠 Button
 
 A área de Button armazena os variados estados de botões (normal, hover, com ícone e disabilitado).
 
