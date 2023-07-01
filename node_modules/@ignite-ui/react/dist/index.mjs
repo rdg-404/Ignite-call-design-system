@@ -289,10 +289,21 @@ var Button = styled("button", {
     size: "md"
   }
 });
+
+// src/components/TextInput/styles.ts
+import { styled as styled2 } from "@stitches/react";
+var TextInputContainer = styled2("div", {});
+
+// src/components/TextInput/index.tsx
+import { jsx as jsx2 } from "react/jsx-runtime";
+function TextInput() {
+  return /* @__PURE__ */ jsx2(TextInputContainer, {});
+}
 export {
   Avatar2 as Avatar,
   Box,
   Button,
   Heading,
-  Text
+  Text,
+  TextInput
 };

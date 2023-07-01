@@ -51,7 +51,8 @@ __export(src_exports, {
   Box: () => Box,
   Button: () => Button,
   Heading: () => Heading,
-  Text: () => Text
+  Text: () => Text,
+  TextInput: () => TextInput
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -326,11 +327,22 @@ var Button = styled("button", {
     size: "md"
   }
 });
+
+// src/components/TextInput/styles.ts
+var import_react2 = require("@stitches/react");
+var TextInputContainer = (0, import_react2.styled)("div", {});
+
+// src/components/TextInput/index.tsx
+var import_jsx_runtime2 = require("react/jsx-runtime");
+function TextInput() {
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(TextInputContainer, {});
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Avatar,
   Box,
   Button,
   Heading,
-  Text
+  Text,
+  TextInput
 });
