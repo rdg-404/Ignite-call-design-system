@@ -1,10 +1,10 @@
 <h1 align="center"> Design System | Storybook </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tokens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tokens">Data Display</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-datadisplay">Surface</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-button">Typography</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tokens">Tokens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-datadisplay">Data display</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-button">Button</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
