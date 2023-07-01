@@ -373,6 +373,12 @@ var Input = styled("input", {
   width: "100%",
   "&:focus": {
     outline: 0
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  "&:placeholder": {
+    color: "$gray400"
   }
 });
 

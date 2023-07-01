@@ -38,4 +38,12 @@ export const Input = styled('input', {
   '&:focus': {
     outline: 0,
   },
+
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
+
+  '&:placeholder': {
+    color: '$gray400',
+  },
 })
