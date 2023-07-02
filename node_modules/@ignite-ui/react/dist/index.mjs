@@ -423,7 +423,7 @@ var MultistepContainer = styled("div", {});
 
 // src/components/Multistep/index.tsx
 import { jsx as jsx4 } from "react/jsx-runtime";
-function Multistep() {
+function Multistep({ size, currentStep = 1 }) {
   return /* @__PURE__ */ jsx4(MultistepContainer, {});
 }
 export {

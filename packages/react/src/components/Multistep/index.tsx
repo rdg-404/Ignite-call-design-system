@@ -1,5 +1,10 @@
 import { MultistepContainer } from './style'
 
-export function Multistep() {
+export interface MultistepProps {
+  size: number
+  currentStep?: number
+}
+
+export function Multistep({ size, currentStep = 1 }: MultistepProps) {
   return <MultistepContainer></MultistepContainer>
 }

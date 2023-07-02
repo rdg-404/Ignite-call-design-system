@@ -464,7 +464,7 @@ var MultistepContainer = styled("div", {});
 
 // src/components/Multistep/index.tsx
 var import_jsx_runtime4 = require("react/jsx-runtime");
-function Multistep() {
+function Multistep({ size, currentStep = 1 }) {
   return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MultistepContainer, {});
 }
 // Annotate the CommonJS export names for ESM import in node:
