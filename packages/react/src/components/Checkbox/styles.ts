@@ -24,3 +24,9 @@ export const CheckboxContainer = styled(Checkbox.Root, {
     border: '2px solid $ignite300',
   },
 })
+
+export const CheckboxIndicator = styled(Checkbox.Indicator, {
+  color: '$white',
+  width: '$4',
+  height: '$4',
+})

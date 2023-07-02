@@ -443,6 +443,11 @@ var CheckboxContainer = styled(Checkbox.Root, {
     border: "2px solid $ignite300"
   }
 });
+var CheckboxIndicator = styled(Checkbox.Indicator, {
+  color: "$white",
+  width: "$4",
+  height: "$4"
+});
 
 // src/components/Checkbox/index.tsx
 var import_jsx_runtime3 = require("react/jsx-runtime");
