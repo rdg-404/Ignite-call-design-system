@@ -380,6 +380,9 @@ var TextArea = styled("textarea", {
   }
 });
 
+// src/components/Checkbox/index.tsx
+import { Check } from "phosphor-react";
+
 // src/components/Checkbox/styles.ts
 import * as Checkbox from "@radix-ui/react-checkbox";
 var CheckboxContainer = styled(Checkbox.Root, {
@@ -412,7 +415,7 @@ var CheckboxIndicator = styled(Checkbox.Indicator, {
 // src/components/Checkbox/index.tsx
 import { jsx as jsx3 } from "react/jsx-runtime";
 function Checkbox2(props) {
-  return /* @__PURE__ */ jsx3(CheckboxContainer, __spreadValues({}, props));
+  return /* @__PURE__ */ jsx3(CheckboxContainer, __spreadProps(__spreadValues({}, props), { children: /* @__PURE__ */ jsx3(CheckboxIndicator, { asChild: true, children: /* @__PURE__ */ jsx3(Check, { weight: "bold" }) }) }));
 }
 export {
   Avatar2 as Avatar,

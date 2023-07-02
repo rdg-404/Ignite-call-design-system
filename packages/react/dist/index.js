@@ -420,6 +420,9 @@ var TextArea = styled("textarea", {
   }
 });
 
+// src/components/Checkbox/index.tsx
+var import_phosphor_react2 = require("phosphor-react");
+
 // src/components/Checkbox/styles.ts
 var Checkbox = __toESM(require("@radix-ui/react-checkbox"));
 var CheckboxContainer = styled(Checkbox.Root, {
@@ -452,7 +455,7 @@ var CheckboxIndicator = styled(Checkbox.Indicator, {
 // src/components/Checkbox/index.tsx
 var import_jsx_runtime3 = require("react/jsx-runtime");
 function Checkbox2(props) {
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(CheckboxContainer, __spreadValues({}, props));
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(CheckboxContainer, __spreadProps(__spreadValues({}, props), { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(CheckboxIndicator, { asChild: true, children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_phosphor_react2.Check, { weight: "bold" }) }) }));
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
