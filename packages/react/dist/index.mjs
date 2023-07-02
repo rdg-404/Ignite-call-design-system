@@ -428,9 +428,14 @@ var Label = styled(Text, {
 });
 
 // src/components/Multistep/index.tsx
-import { jsx as jsx4 } from "react/jsx-runtime";
+import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
 function Multistep({ size, currentStep = 1 }) {
-  return /* @__PURE__ */ jsx4(MultistepContainer, {});
+  return /* @__PURE__ */ jsx4(MultistepContainer, { children: /* @__PURE__ */ jsxs3(Label, { children: [
+    "Passo ",
+    currentStep,
+    " de ",
+    size
+  ] }) });
 }
 export {
   Avatar2 as Avatar,

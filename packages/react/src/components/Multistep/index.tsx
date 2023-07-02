@@ -1,4 +1,4 @@
-import { MultistepContainer } from './style'
+import { Label, MultistepContainer } from './style'
 
 export interface MultistepProps {
   size: number
@@ -6,5 +6,11 @@ export interface MultistepProps {
 }
 
 export function Multistep({ size, currentStep = 1 }: MultistepProps) {
-  return <MultistepContainer></MultistepContainer>
+  return (
+    <MultistepContainer>
+      <Label>
+        Passo {currentStep} de {size}
+      </Label>
+    </MultistepContainer>
+  )
 }

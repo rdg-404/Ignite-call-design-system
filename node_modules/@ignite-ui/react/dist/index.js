@@ -471,7 +471,12 @@ var Label = styled(Text, {
 // src/components/Multistep/index.tsx
 var import_jsx_runtime4 = require("react/jsx-runtime");
 function Multistep({ size, currentStep = 1 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MultistepContainer, {});
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MultistepContainer, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Label, { children: [
+    "Passo ",
+    currentStep,
+    " de ",
+    size
+  ] }) });
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
