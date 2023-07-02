@@ -497,7 +497,7 @@ function Multistep({ size, currentStep = 1 }) {
       size
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Steps, { css: { "--steps-size": size }, children: Array.from({ length: size }, (_, index) => index + 1).map((step) => {
-      return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Step, {}, step);
+      return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Step, { active: currentStep >= step }, step);
     }) })
   ] });
 }
