@@ -426,6 +426,12 @@ var Label = styled(Text, {
     size: "xs"
   }
 });
+var Step = styled("div", {
+  display: "grid",
+  gridTemplateColumns: "repeat(var(--steps-size), 1fr)",
+  gap: "$2",
+  marginTop: "$1"
+});
 
 // src/components/Multistep/index.tsx
 import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
