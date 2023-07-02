@@ -24,3 +24,9 @@ export default {
 } as Meta<MultistepProps>
 
 export const Primary: StoryObj<MultistepProps> = {}
+
+export const Complete: StoryObj<MultistepProps> = {
+  args: {
+    currentStep: 4,
+  },
+}
