@@ -420,6 +420,12 @@ function Checkbox2(props) {
 
 // src/components/Multistep/style.ts
 var MultistepContainer = styled("div", {});
+var Label = styled(Text, {
+  color: "$gray200",
+  defaultVariants: {
+    size: "xs"
+  }
+});
 
 // src/components/Multistep/index.tsx
 import { jsx as jsx4 } from "react/jsx-runtime";
