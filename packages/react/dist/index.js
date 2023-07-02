@@ -467,22 +467,32 @@ var Label = styled(Text, {
     size: "xs"
   }
 });
-var Step = styled("div", {
+var Steps = styled("div", {
   display: "grid",
   gridTemplateColumns: "repeat(var(--steps-size), 1fr)",
   gap: "$2",
   marginTop: "$1"
 });
+var Step = styled("div", {
+  height: "$1",
+  borderRadius: "$px",
+  backgroundColor: "$gray600"
+});
 
 // src/components/Multistep/index.tsx
 var import_jsx_runtime4 = require("react/jsx-runtime");
 function Multistep({ size, currentStep = 1 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MultistepContainer, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Label, { children: [
-    "Passo ",
-    currentStep,
-    " de ",
-    size
-  ] }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(MultistepContainer, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Label, { children: [
+      "Passo ",
+      currentStep,
+      " de ",
+      size
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Steps, { css: { "--steps-size": size }, children: Array.from({ length: size }, (_, index) => index + 1).map((step) => {
+      return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Step, {}, step);
+    }) })
+  ] });
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {

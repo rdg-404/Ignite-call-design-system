@@ -426,22 +426,32 @@ var Label = styled(Text, {
     size: "xs"
   }
 });
-var Step = styled("div", {
+var Steps = styled("div", {
   display: "grid",
   gridTemplateColumns: "repeat(var(--steps-size), 1fr)",
   gap: "$2",
   marginTop: "$1"
 });
+var Step = styled("div", {
+  height: "$1",
+  borderRadius: "$px",
+  backgroundColor: "$gray600"
+});
 
 // src/components/Multistep/index.tsx
 import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
 function Multistep({ size, currentStep = 1 }) {
-  return /* @__PURE__ */ jsx4(MultistepContainer, { children: /* @__PURE__ */ jsxs3(Label, { children: [
-    "Passo ",
-    currentStep,
-    " de ",
-    size
-  ] }) });
+  return /* @__PURE__ */ jsxs3(MultistepContainer, { children: [
+    /* @__PURE__ */ jsxs3(Label, { children: [
+      "Passo ",
+      currentStep,
+      " de ",
+      size
+    ] }),
+    /* @__PURE__ */ jsx4(Steps, { css: { "--steps-size": size }, children: Array.from({ length: size }, (_, index) => index + 1).map((step) => {
+      return /* @__PURE__ */ jsx4(Step, {}, step);
+    }) })
+  ] });
 }
 export {
   Avatar2 as Avatar,
