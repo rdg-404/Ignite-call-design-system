@@ -1,6 +1,6 @@
-import React from 'react';
+
 /** @type { import('@storybook/react-vite').StorybookConfig } */
-export const config = {
+ const config = {
   stories: ["../src/pages/**/*.stories.mdx", "../src/stories/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-links",
@@ -25,3 +25,5 @@ export const config = {
   }
   
 };
+
+export default config;
