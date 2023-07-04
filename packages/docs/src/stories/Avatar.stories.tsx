@@ -9,6 +9,14 @@ export default {
     src: 'https://github.com/rdg-404.png',
     alt: 'Rodrigo Paiva',
   },
+
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
