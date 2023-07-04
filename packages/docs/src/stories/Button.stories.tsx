@@ -8,6 +8,8 @@ export default {
 
   args: {
     children: 'Send',
+    variant: 'primary',
+    size: 'md',
   },
 
   argTypes: {
