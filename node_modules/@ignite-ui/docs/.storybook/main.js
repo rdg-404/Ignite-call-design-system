@@ -19,6 +19,8 @@ const config = {
     if(configType === 'PRODUCTION'){
       config.base = '/Ignite-call/'
     }
+
+    return config
   }
   
 };
