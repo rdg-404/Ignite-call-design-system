@@ -11,7 +11,14 @@ export default {
   },
 
   argTypes: {
-    onClick: { action: 'clicked' },
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+
+    onClick: { action: 'click' },
   },
 } as Meta<ButtonProps>
 
