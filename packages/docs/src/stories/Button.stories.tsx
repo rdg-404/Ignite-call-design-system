@@ -18,6 +18,13 @@ export default {
       },
     },
 
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+
     onClick: { action: 'click' },
   },
 } as Meta<ButtonProps>
