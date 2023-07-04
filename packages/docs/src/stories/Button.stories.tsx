@@ -10,6 +10,7 @@ export default {
     children: 'Send',
     variant: 'primary',
     size: 'md',
+    disabled: false,
   },
 
   argTypes: {
@@ -24,6 +25,11 @@ export default {
       options: ['sm', 'md'],
       control: {
         type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
       },
     },
 
