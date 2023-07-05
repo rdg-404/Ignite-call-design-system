@@ -1,11 +1,5 @@
 <h1 align="center"> Design System | Storybook </h1>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tokens">Tokens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-data display">Data display</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-button">Button</a>&nbsp;&nbsp;&nbsp;
-</p>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
@@ -32,59 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Radix
 - Phosphor React
 
-## 🎨 Tokens
-
-A área de tokens armazena todas as configuração de <a href="#-cores">cores</a>, <a href="#-space">espaçamento</a>, <a href="#-fontes">fontes</a>
-
-###  Cores 
-  <div align="center">
-    <img src="./assets/colors.png"/>
-  </div>
-
-  ### Fontes 
-  <div align="center">
-    <img src="./assets/font.png"/>
-  </div>
-
-  ### Space 
-  <div align="center">
-    <img src="./assets/space.png"/>
-  </div>
-
-## 🌗 Data display
-
-A área de Data display armazena os estados de avatares.
-
-  ### Online
-  <div align="left">
-    <img src="./assets/on.png"/>
-  </div>
-
-  ### Offiline
-  <div align="left">
-    <img src="./assets/off.png"/>
-  </div>
-
-
-## 🔠 Button
-
-A área de Button armazena os variados estados de botões (normal, hover, com ícone e disabilitado).
-
-<br>
-  <div align="left">
-    <img src="./assets/normal.png"/>
-  </div>
-
-  <br>
-  <div align="left">
-    <img src="./assets/icon.png"/>
-  </div>
-
-<br>
-  <div align="left">
-    <img src="./assets/two.png"/>
-  </div>
-
+Link da aplicação: https://rdg-404.github.io/Ignite-call/?path=/docs/home--docs
 
 
 # Comandos importantes
