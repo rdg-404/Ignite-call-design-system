@@ -23,7 +23,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env: 
-          TURBO_TOKEN: Hyeapw7VSAq6nW573uFpw1dy
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: rodriigopaiivarp19
 
 
